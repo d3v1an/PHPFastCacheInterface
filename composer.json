@@ -1,0 +1,23 @@
+{
+    "name": "d3-catalyst/caching",
+    "description": "Interface para sistema de cacheo de phpfastcache",
+    "authors": [
+        {
+            "name": "D3Catalyst",
+            "email": "ricardom@gacomunicacion.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "D3Catalyst\\Caching\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
